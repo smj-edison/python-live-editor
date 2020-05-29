@@ -3,3 +3,6 @@ This is based on Khan Academy's live editor, except in python. Currently there i
 
 # Running locally
 All you have to do to run locally is run `./build.sh`, and start a server with `python -m SimpleHTTPServer 8080` in the build directory.
+
+# Demo
+Go to https://smj-edison.github.io/python-live-editor/ to try it out!
