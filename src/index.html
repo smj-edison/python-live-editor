@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Python editor</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="app">
+        <div id="upper-editor-section">
+            <div id="editor"></div>
+            <div id="output">
+            </div>
+        </div>
+        <div id="button-bar">
+            <button onclick="runCode()">Run code</button>
+        </div>
+    </div>
+    <script src="deps/p5.js"></script>
+    <script src="deps/pyodide/pyodide_dev.js" async></script>
+    <script src="deps/ace/ace.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
